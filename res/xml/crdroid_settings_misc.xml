@@ -62,6 +62,14 @@
         android:summary="@string/netflix_spoof_summary"
         android:defaultValue="false" />
 
+    <!-- Secure flag -->
+    <com.android.settings.preferences.GlobalSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:icon="@drawable/ic_custom_settings_privacy"
+        android:title="@string/laboratory_ignore_window_secure_title"
+        android:summary="@string/laboratory_ignore_window_secure_summary"
+        android:defaultValue="false" />
+
     <!-- Google services
     <Preference
         android:key="gms_enabled_settings"
